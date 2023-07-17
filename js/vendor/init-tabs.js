@@ -1,0 +1,1 @@
+import{Tabs}from"./tabs.js";let tabs;const initTabs=()=>{tabs=new Tabs,window.tabs=tabs};export{initTabs,tabs};
