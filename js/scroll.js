@@ -1,1 +1,0 @@
-const link=document.querySelector(".header__button"),scrollPage=()=>{link.addEventListener("click",(e=>{e.preventDefault();const t=link.getAttribute("href");document.querySelector(t).scrollIntoView({behavior:"smooth",block:"end"})}))};export default scrollPage;
