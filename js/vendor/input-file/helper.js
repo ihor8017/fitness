@@ -1,0 +1,1 @@
+const sizes=["Bytes","KB","MB","GB","TB"];export const bytesToSize=t=>{if(!t)return"0 Byte";const o=parseInt(Math.floor(Math.log(t)/Math.log(1024)),10);return`${Math.round(t/Math.pow(1024,o))} ${sizes[o]}`};

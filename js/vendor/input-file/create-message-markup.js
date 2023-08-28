@@ -1,0 +1,1 @@
+export const createMessageMarkup=e=>`<div class="input-upload__message">${e}</div>`;

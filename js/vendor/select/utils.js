@@ -1,0 +1,1 @@
+export const createElement=e=>{const r=document.createElement("div");return r.innerHTML=e,r.firstChild};export const renderElement=(e,r,n="beforeend")=>{switch(n){case"prepend":e.prepend(r);break;case"afterend":e.after(r);break;case"beforeend":e.append(r)}};

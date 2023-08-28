@@ -1,0 +1,1 @@
+const baseSuccessCallback=a=>{a.preventDefault()},baseErrorCallback=a=>{a.preventDefault()};export const callbacks={base:{reset:!0,resetTimeout:500,successCallback:baseSuccessCallback,errorCallback:baseErrorCallback}};
